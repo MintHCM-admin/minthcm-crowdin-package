@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -73,11 +73,9 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'My Attitudes',
     'LNK_NEW_RECORD' => 'Create Attitudes',
     'LNK_LIST' => 'View Attitudes',
-    'LNK_IMPORT_ATTITUDES' => 'Import Attitudes',
     'LBL_SEARCH_FORM_TITLE' => 'Search Attiude', //
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_ATTITUDES_SUBPANEL_TITLE' => 'Atttiudes',
     'LBL_NEW_FORM_TITLE' => 'New Attitudes',
     'LBL_COMPETENCIES' => 'Competencies',
     'LBL_APPRAISALITEMS' => 'Appraisal Items',
