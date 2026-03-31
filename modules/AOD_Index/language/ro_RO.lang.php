@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -76,7 +76,6 @@ $mod_strings = array(
     'LBL_LAST_OPTIMISED' => 'Last Optimised',
     'LBL_LOCATION' => 'Location',
     'LBL_SEARCH_BUTTON' => 'Search',
-    'LBL_SEARCH_QUERY_PLACEHOLDER' => 'Enter search...',
     'LBL_INDEX_STATS' => 'Index stats',
     'LBL_OPTIMISE_NOW' => "Optimise now",
     'LBL_TOTAL_RECORDS' => 'Total records',
@@ -84,14 +83,5 @@ $mod_strings = array(
     'LBL_UNINDEXED_RECORDS' => 'Unindexed records',
     'LBL_FAILED_RECORDS' => 'Failed records',
     'LBL_INDEX_FILES' => 'Index file count',
-    'LBL_SEARCH_RESULT_SCORE' => 'Search Score',
-    'LBL_SEARCH_RESULT_MODULE' => 'Module',
-    'LBL_SEARCH_RESULT_NAME' => 'Name',
-    'LBL_SEARCH_RESULT_DATE_CREATED' => 'Date Created',
-    'LBL_SEARCH_RESULT_DATE_MODIFIED' => 'Date Modified',
-    'LBL_SEARCH_RESULT_EMPTY' => 'No results',
-    'LBL_SEARCH_RESULT_SUMMARY' => 'Summary',
     'LBL_NEVER_OPTIMISED' => 'Never',
-    'LBL_USE_AOD_SEARCH' => 'Use Advanced Search',
-    'LBL_USE_VANILLA_SEARCH' => 'Use Basic Search',
 );
