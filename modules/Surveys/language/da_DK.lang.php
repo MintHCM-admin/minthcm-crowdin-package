@@ -9,7 +9,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -110,4 +110,22 @@ $mod_strings = array(
     'LBL_SURVEYS_SENT' => 'Surveys Sent',
     'LBL_DISTINCT_SURVEYS_SENT' => 'Distinct Surveys Sent',
     'LBL_OPTIONS' => 'Options',
+    //MintHCM #102681 START
+    'LBL_SURVEY_CLOSED' => 'Thanks for your interest but this survey is now closed',
+    'LBL_SURVEY_THANKS_FOR_COMPLETING' => 'Thanks for completing this survey',
+    'LBL_SURVEY_RETURN_BUTTON' => 'Return to system',
+    'LBL_SURVEY_ALREADY_FILLED' => 'This survey has already been completed by you',
+    'LBL_SURVEY_EMPLOYEE_NOT_EXSIST' => 'Sorry, you do not have access to this survey',
+    'LBL_SURVEY_YOUR_ANSWER_PLACEHOLDER' => 'Your answer',
+    //MintHCM #102681 END
+    'LBL_SURVEY_QUESTION' => 'Question',
+    'LBL_SURVEY_TEXT' => 'Text',
+    'LBL_SURVEY_TYPE' => 'Type',
+    'LBL_SURVEY_ACTIONS' => 'Actions',
+    'LBL_SURVEY_NEW_QUESTION' => 'New Question',
+    'LBL_SURVEY_RESPONSES' => 'New Question',
+    'LBL_SURVEY_DISTINCT' => 'Distinct Surveys Sent:',
+    'LBL_DRAFT' => 'Draft',
+    'LBL_SUBMIT' => 'Submit',
+    'LBL_STARS' => 'Stars'
 );
