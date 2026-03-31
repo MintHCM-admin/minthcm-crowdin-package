@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -73,15 +73,11 @@ $mod_strings = array(
    'LBL_HOMEPAGE_TITLE' => 'My Offboarding Templates',
    'LNK_NEW_RECORD' => 'Create Offboarding Template',
    'LNK_LIST' => 'View Offboarding Templates',
-   'LNK_IMPORT_OFFBOARDINGTEMPLATES' => 'Import Offboarding Templates',
    'LBL_SEARCH_FORM_TITLE' => 'Search Offboarding Templates',
    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-   'LBL_OFFBOARDINGTEMPLATES_SUBPANEL_TITLE' => 'Offboarding Templates',
    'LBL_NEW_FORM_TITLE' => 'New Offboarding Template',
    'LBL_OFFBOARDINGTEMPLATES_POSITIONS_TITLE' => 'Positions',
-   'LBL_POSITION_NAME' => 'Position',
-   'LBL_POSITION_ID' => 'Position (ID)',
    'LBL_OFFBOARDINGS' => 'Offboardings',
    'LBL_GENERATE_BUTTON' => 'Generate Offboarding',
    'LBL_ELEMENTS' => 'Onboarding/Offboarding Elements',
