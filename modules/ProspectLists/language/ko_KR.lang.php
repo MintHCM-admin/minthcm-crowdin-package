@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -63,6 +63,7 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_MARKETING_ID' => 'Marketing Id',
     'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_INDEXED' => 'Date Indexed',
     'LBL_MODIFIED' => 'Modified by',
     'LBL_CREATED' => 'Created by',
     'LBL_ASSIGNED_TO' => 'Assigned to',
@@ -77,9 +78,7 @@ $mod_strings = array(
     'LNK_PROSPECT_LIST' => 'Targets',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
     'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Targets',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
     'LBL_COPY_PREFIX' => 'Copy of',
     'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_TYPE' => 'Type',
@@ -94,6 +93,10 @@ $mod_strings = array(
     'LBL_EMAIL_MARKETING' => 'Email Marketing',
     'LBL_EMPLOYEES' => 'Employees',
     'LBL_CANDIDATES' => 'Candidates',
-
+    'LBL_NEWS' => 'News',
+    'LBL_AUTOMATIC_UPDATE' => "Automatic Update",
+    'LBL_KREPORTS' => "Reports",
+    'LBL_KREPORT_ID' => "Report ID",
+    'LBL_KREPORT_NAME' => "Report",
 );
 
