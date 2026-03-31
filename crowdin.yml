@@ -1,0 +1,13 @@
+files:
+  - source: /**/
+    ignore:
+      - /**/SugarFields
+      - /include/language/en_us.notify_template.html
+      - manifest.php
+    translation: /%original_path%/%locale_with_underscore%.lang.php
+  - source: /include/SugarFields/Fields/Address/en_us.EditView.tpl
+    translation: /%original_path%/%locale_with_underscore%.EditView.tpl
+  - source: /include/language/en_us.notify_template.html
+    translation: /%original_path%/%locale_with_underscore%.notify_template.html
+  - source: /include/SugarFields/Fields/Address/en_us.DetailView.tpl
+    translation: /%original_path%/%locale_with_underscore%.DetailView.tpl
