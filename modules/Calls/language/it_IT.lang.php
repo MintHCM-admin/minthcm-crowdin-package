@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -53,6 +53,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Call Search',
     'LBL_LIST_FORM_TITLE' => 'Call List',
     'LBL_NEW_FORM_TITLE' => 'Create Call',
+    'LNK_NEW_RECORD' => 'Create Call',
     'LBL_LIST_CLOSE' => 'Close',
     'LBL_LIST_SUBJECT' => 'Subject',
     'LBL_LIST_CONTACT' => 'Contact',
@@ -79,7 +80,6 @@ $mod_strings = array(
     'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_CALL_LIST' => 'View Calls',
     'LNK_IMPORT_CALLS' => 'Import Calls',
-    'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
     'LBL_INVITEE' => 'Invitees',
     'LBL_RELATED_TO' => 'Related To:',
     'LNK_NEW_APPOINTMENT' => 'Create Appointment',
@@ -102,10 +102,6 @@ $mod_strings = array(
     'LBL_SEARCH_BUTTON' => 'Search',
     'LBL_ADD_BUTTON' => 'Add',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Calls',
-    'LNK_SELECT_ACCOUNT' => 'Select Account',
-    'LNK_NEW_ACCOUNT' => 'New Account',
-    'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_OUTLOOK_ID' => 'Outlook ID',
@@ -123,7 +119,6 @@ $mod_strings = array(
     // create invitee functionality
     'LBL_CREATE_INVITEE' => 'Create an invitee',
     'LBL_CREATE_CONTACT' => 'As Contact',
-    'LBL_CREATE_LEAD' => 'As Lead',
     'LBL_CREATE_AND_ADD' => 'Create & Add',
     'LBL_CANCEL_CREATE_INVITEE' => 'Cancel',
     'LBL_EMPTY_SEARCH_RESULT' => 'Sorry, no results were found. Please create an invitee below.',
@@ -155,7 +150,6 @@ $mod_strings = array(
     'LBL_RESCHEDULE_HISTORY' => 'Call Attempt History',
     'LBL_CANCEL' => 'Cancel',
     'LBL_SAVE' => 'Save',
-    'LBL_CALLS_RESCHEDULE' => 'Calls Reschedule',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_DATE_MODIFIED' => 'Date Modified',
     'LBL_LIST_DUE_DATE' => 'Due Date',
@@ -165,4 +159,5 @@ $mod_strings = array(
     'LBL_ADD_INVITEE' => 'Add Invitees/Resources',
     'LBL_FIRST_NAME' => 'First Name/Resource Name',
     'LBL_LIST_TITLE' => 'Call',
+    'LBL_RESCHEDULED_BY'=>'by',
 );
