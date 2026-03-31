@@ -9,7 +9,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -73,11 +73,9 @@ $mod_strings = array(
    'LBL_HOMEPAGE_TITLE' => 'My Onboardings',
    'LNK_NEW_RECORD' => 'Create Onboarding',
    'LNK_LIST' => 'View Onboardings',
-   'LNK_IMPORT_ONBOARDINGS' => 'Import Onboardings',
    'LBL_SEARCH_FORM_TITLE' => 'Search Onboardings',
    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-   'LBL_ONBOARDINGS_SUBPANEL_TITLE' => 'Onboardings',
    'LBL_NEW_FORM_TITLE' => 'New Onboarding',
    'LBL_STATUS' => 'Status',
    'LBL_DATE_START' => 'Start Date',
@@ -85,5 +83,9 @@ $mod_strings = array(
    'LBL_ONBOARDINGTEMPLATE_NAME' => 'Onboarding Template',
    'LBL_ONBOARDINGTEMPLATE_ID' => 'Onboarding Template (ID)',
    'LBL_RELATIONSHIP_TRAININGS_NAME' => 'Trainings',
-   'LBL_RELATIONSHIP_TASKS_NAME' => 'Tasks',   
+   'LBL_RELATIONSHIP_TASKS_NAME' => 'Tasks',
+   'LBL_STATUS_COMMENT' => 'Current onboarding status.',
+   'LBL_DATE_START_COMMENT' => 'Date and time when the onboarding process starts.',
+   'LBL_ONBOARDINGTEMPLATE_NAME_COMMENT' => 'Name of the onboarding template used for this process.',
+   'LBL_ONBOARDINGTEMPLATE_ID_COMMENT' => 'Technical identifier of the onboarding template.',
 );

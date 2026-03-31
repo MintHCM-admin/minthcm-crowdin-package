@@ -8,7 +8,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2023 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -72,11 +72,9 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'My Onboarding/Offboarding Elements',
     'LNK_NEW_RECORD' => 'Create Element',
     'LNK_LIST' => 'View Elements',
-    'LNK_IMPORT_ONBOARDINGOFFBOARDINGELEMENTS' => 'Import Onboarding/Offboarding Elements',
     'LBL_SEARCH_FORM_TITLE' => 'Search Onboarding/Offboarding Elements',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_ONBOARDINGOFFBOARDINGELEMENTS_SUBPANEL_TITLE' => 'Onboarding/Offboarding Elements',
     'LBL_NEW_FORM_TITLE' => 'New Onboarding/Offboarding Element',
     'LBL_TYPE' => 'Type',
     'LBL_DAYS_FROM_START' => 'Days From Start',
@@ -97,4 +95,5 @@ $mod_strings = array(
     'LBL_SECURITYGROUP_UNIT_NAME' => 'Organizational Unit',
     'LBL_SECURITYGROUP_UNIT_ID' => 'Organizational Unit (ID)',
     'LBL_RELATIONSHIP_TRAININGS_NAME' => 'Trainings',
+    'LBL_CHECKLIST' => 'Checklist',
 );

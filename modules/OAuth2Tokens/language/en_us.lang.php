@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -46,7 +46,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings = array (
+$mod_strings = array(
     'LBL_MODULE_NAME' => 'OAuth2 Tokens',
     'LBL_MODULE_TITLE' => 'OAuth2 Tokens',
     'LBL_MODULE_ID'=> 'OAuth2 Tokens',
@@ -57,19 +57,17 @@ $mod_strings = array (
     'LBL_ACCESS_TOKEN_EXPIRES'=> 'Access token expires',
     'LBL_REFRESH_TOKEN_EXPIRES'=> 'Refresh token expires',
     'LBL_GRANT_TYPE'=> 'Grant type',
-    'LBL_SCOPES'=> 'Scopes',
-    'LBL_REVOKE_TOKEN'=> 'Revoke token',
-    'LBL_REVOKE_TOKENS'=> 'Revoke tokens',
-    'LBL_CLIENT_NAME'=> 'Client name',
     'LBL_USER' => 'Associated user',
     'LBL_IS_ACTIVE' => 'Active tokens only',
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
     'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
+    
+    'LBL_ACCESS_TOKEN' => 'Access token',
+    'LBL_REFRESH_TOKEN' => 'Refresh token',
 );

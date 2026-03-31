@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2023 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2023 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -51,10 +51,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED'                                                                     => 'Date Created',
     'LBL_DATE_MODIFIED'                                                                    => 'Date Modified',
     'LBL_MODIFIED'                                                                         => 'Modified by',
-    'LBL_MODIFIED_ID'                                                                      => 'Modified by Id',
     'LBL_MODIFIED_NAME'                                                                    => 'Modified by Name',
     'LBL_CREATED'                                                                          => 'Created by',
-    'LBL_CREATED_ID'                                                                       => 'Created by Id',
     'LBL_DESCRIPTION'                                                                      => 'Description',
     'LBL_DELETED'                                                                          => 'Deleted',
     'LBL_NAME'                                                                             => 'Name',
@@ -69,11 +67,9 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE'                                                                   => 'My Survey Question Options',
     'LNK_NEW_RECORD'                                                                       => 'Create Survey Question Options',
     'LNK_LIST'                                                                             => 'View Survey Question Options',
-    'LNK_IMPORT_SURVEYQUESTIONOPTIONS'                                                     => 'Import Survey Question Options',
     'LBL_SEARCH_FORM_TITLE'                                                                => 'Search Survey Question Options',
     'LBL_HISTORY_SUBPANEL_TITLE'                                                           => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE'                                                        => 'Activities',
-    'LBL_SURVEYQUESTIONOPTIONS_SUBPANEL_TITLE'                                             => 'Survey Question Options',
     'LBL_NEW_FORM_TITLE'                                                                   => 'New Survey Question Options',
     'LBL_SURVEYQUESTIONOPTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Survey Question Responses',
     'LBL_SORT_ORDER'                                                                       => 'Sort Order',

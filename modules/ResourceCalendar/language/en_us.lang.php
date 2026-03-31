@@ -1,16 +1,14 @@
 <?php
-
-
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -44,37 +42,8 @@
  * "Supercharged by SuiteCRM" and "Reinvented by MintHCM".
  */
 
-$mod_strings = array(
-   'LBL_ASSIGNED_TO_ID' => 'Assigned User',
-   'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-   'LBL_SECURITYGROUPS' => 'Organizational Units',
-   'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Organizational Units',
-   'LBL_ID' => 'ID',
-   'LBL_DATE_ENTERED' => 'Date Created',
-   'LBL_DATE_MODIFIED' => 'Date Modified',
-   'LBL_MODIFIED' => 'Modified by',
-   'LBL_MODIFIED_NAME' => 'Modified by Name',
-   'LBL_CREATED' => 'Created by',
-   'LBL_DESCRIPTION' => 'Description',
-   'LBL_DELETED' => 'Deleted',
-   'LBL_NAME' => 'Name',
-   'LBL_CREATED_USER' => 'Created by User',
-   'LBL_MODIFIED_USER' => 'Modified by User',
-   'LBL_LIST_NAME' => 'Name',
-   'LBL_EDIT_BUTTON' => 'Edit',
-   'LBL_REMOVE' => 'Remove',
-   'LBL_ASCENDING' => 'Ascending',
-   'LBL_DESCENDING' => 'Descending',
-   'LBL_LIST_FORM_TITLE' => 'Employee Interaction Tracking List',
-   'LBL_MODULE_NAME' => 'Employee Interaction Tracking',
-   'LBL_MODULE_TITLE' => 'Employee Interaction Tracking',
-   'LBL_HOMEPAGE_TITLE' => 'My Employee Interaction Tracking',
-   'LNK_NEW_RECORD' => 'Create Employee Interaction Tracking',
-   'LNK_LIST' => 'View Employee Interaction Tracking',
-   'LNK_IMPORT_PROBLEMS' => 'Import Employee Interaction Tracking',
-   'LBL_SEARCH_FORM_TITLE' => 'Search Employee Interaction Tracking',
-   'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-   'LBL_NEW_FORM_TITLE' => 'New Employee Interaction Tracking',
-   'LBL_EDITVIEW_PANEL1' => 'OTHER',
-   'LBL_DATE' => 'Date',
-);
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$mod_strings = array();

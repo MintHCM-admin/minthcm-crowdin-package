@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -106,4 +106,5 @@ $mod_strings = array(
     'LBL_MAIN_GROUPS' => 'Main Group:',
     'LBL_CHAR_UNNAMED_DEFAULT_TITLE' => 'Unnamed Chart',
     'LBL_REPORT' => 'Report',
+    'LBL_AOR_CHARTS' => 'Charts',
 );

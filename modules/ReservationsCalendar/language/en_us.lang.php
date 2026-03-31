@@ -9,7 +9,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -73,11 +73,9 @@ $mod_strings = array(
    'LBL_HOMEPAGE_TITLE' => 'My Reservations Calendar',
    'LNK_NEW_RECORD' => 'Create Reservations Calendar',
    'LNK_LIST' => 'View Reservations Calendar',
-   'LNK_IMPORT_RESERVATIONSCALENDAR' => 'Import Reservations Calendar',
    'LBL_SEARCH_FORM_TITLE' => 'Search Reservations Calendar',
    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-   'LBL_RESERVATIONSCALENDAR_SUBPANEL_TITLE' => 'Reservations Calendar',
    'LBL_NEW_FORM_TITLE' => 'New Reservations Calendar',
    'LNK_RESERVATION_CALENDAR_TODAY' => 'Today',
    'LNK_RESERVATION_CALENDAR_DAY' => 'Day',

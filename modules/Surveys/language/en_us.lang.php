@@ -9,7 +9,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2023 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -51,10 +51,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified by',
-    'LBL_MODIFIED_ID' => 'Modified by Id',
     'LBL_MODIFIED_NAME' => 'Modified by Name',
     'LBL_CREATED' => 'Created by',
-    'LBL_CREATED_ID' => 'Created by Id',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
@@ -69,14 +67,11 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'My Surveys',
     'LNK_NEW_RECORD' => 'Create Surveys',
     'LNK_LIST' => 'View Surveys',
-    'LNK_IMPORT_SURVEYS' => 'Import Surveys',
     'LBL_SEARCH_FORM_TITLE' => 'Search Surveys',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_SURVEYS_SUBPANEL_TITLE' => 'Surveys',
     'LBL_NEW_FORM_TITLE' => 'New Surveys',
     'LBL_STATUS' => 'Status',
-    'LBL_SURVEY_QUESTIONS_DISPLAY' => 'Questions',
     'LBL_SURVEY_URL_DISPLAY' => 'URL',
     'LBL_HAPPINESS_QUESTION' => 'Happiness Question',
     'LBL_CANT_EDIT_RESPONDED' => 'Survey questions with responses cannot be edited',
@@ -105,7 +100,6 @@ $mod_strings = array(
     'LBL_MATRIX_NEITHER_TEXT' => 'Neither Satisfied nor Dissatisfied',
     'LBL_MATRIX_DISSATISFIED_TEXT' => 'Dissatisfied',
     'LBL_HIDE_RESPONSES' => 'Hide responses',
-    'LBL_SHOW_RESPONSES' => 'Show responses',
     'LBL_RESPONSES' => 'Responses',
     'LBL_SURVEYS_SENT' => 'Surveys Sent',
     'LBL_DISTINCT_SURVEYS_SENT' => 'Distinct Surveys Sent',
@@ -118,14 +112,9 @@ $mod_strings = array(
     'LBL_SURVEY_EMPLOYEE_NOT_EXSIST' => 'Sorry, you do not have access to this survey',
     'LBL_SURVEY_YOUR_ANSWER_PLACEHOLDER' => 'Your answer',
     //MintHCM #102681 END
-    'LBL_SURVEY_QUESTION' => 'Question',
-    'LBL_SURVEY_TEXT' => 'Text',
-    'LBL_SURVEY_TYPE' => 'Type',
-    'LBL_SURVEY_ACTIONS' => 'Actions',
-    'LBL_SURVEY_NEW_QUESTION' => 'New Question',
-    'LBL_SURVEY_RESPONSES' => 'New Question',
-    'LBL_SURVEY_DISTINCT' => 'Distinct Surveys Sent:',
     'LBL_DRAFT' => 'Draft',
     'LBL_SUBMIT' => 'Submit',
-    'LBL_STARS' => 'Stars'
+    'LBL_STARS' => 'Stars',
+    'LBL_SURVEY_CLOSE_RESPONSE' => 'Thanks for your interest but this survey is now closed.',
+    'LBL_SURVEY_QUESTIONS_DISPLAY' => 'Survey Questions',
 );

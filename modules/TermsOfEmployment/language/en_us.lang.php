@@ -8,7 +8,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2023 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -72,7 +72,6 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'My Terms of Employment',
     'LNK_NEW_RECORD' => 'Create Terms of Employment',
     'LNK_LIST' => 'View Terms of Employment',
-    'LNK_IMPORT_TERMSOFEMPLOYMENT' => 'Import Terms of Employment',
     'LBL_SEARCH_FORM_TITLE' => 'Search Terms of Employment',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
@@ -91,7 +90,6 @@ $mod_strings = array(
     'LBL_CONTRACT_NAME' => 'Contract',
     'LBL_CONTRACT_ID' => 'Contract (ID)',
     'LBL_PANEL_SALARY' => 'Salary',
-    'LBL_TERMS_DATE_END_BEFORE_START' => "Terms' ending date cannot be set before starting date",
     'LBL_TERMS_NOT_ADJECENT' => "Terms' dates must directly follow one another",
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Organizational Unit',
     'LBL_DOCUMENTS' => 'Documents',

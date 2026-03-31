@@ -10,7 +10,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2024 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -76,11 +76,9 @@ $mod_strings = array(
    'LBL_HOMEPAGE_TITLE' => 'My Periods of Employment',
    'LNK_NEW_RECORD' => 'Create Periods of Employment',
    'LNK_LIST' => 'View Periods of Employment',
-   'LNK_IMPORT_PERIODSOFEMPLOYMENT' => 'Import Periods of Employment',
    'LBL_SEARCH_FORM_TITLE' => 'Search Periods of Employment',
    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-   'LBL_PERIODSOFEMPLOYMENT_SUBPANEL_TITLE' => 'Periods of Employment',
    'LBL_NEW_FORM_TITLE' => 'New Periods of Employment',
    // Studio Ext
    'LBL_NAME' => 'Name',
