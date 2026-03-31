@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -92,12 +92,13 @@ $mod_strings = array(
     'LBL_PARENT_ID' => 'Parent ID:',
     'LBL_CONTACT_PHONE' => 'Contact Phone:',
     'LBL_PARENT_TYPE' => 'Parent Type:',
-    'LBL_TASK_INFORMATION' => 'TASK OVERVIEW',
+    'LBL_TASK_INFORMATION' => 'TASK OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Notes',
     //For export labels
     'LBL_DATE_DUE' => 'Date Due',
     'LBL_RELATED_TO' => 'Related to:',
     'LBL_LIST_TITLE' => 'Task',
-    'LBL_KANBAN_REQUIRED_FIELDS_ERROR' => "To change the entry status, complete the required fields: "
+    'LBL_KANBAN_REQUIRED_FIELDS_ERROR' => "To change the entry status, complete the required fields: ",
+    'LNK_NEW_RECORD' => ' Create Task',  // MintHCM
 );
