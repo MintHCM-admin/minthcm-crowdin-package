@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -72,7 +72,6 @@ $mod_strings = array(
     'LBL_LIST_END_DATE' => 'End Date',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
     'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Project Tasks',
-    'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Opportunities',
     'LBL_PROJECT_PREDECESSOR_NONE' => 'None',
     'LBL_ALL_PROJECTS' => 'All Projects',
     'LBL_ALL_USERS' => 'All Users',
@@ -81,15 +80,13 @@ $mod_strings = array(
     // quick create label
     'LBL_NEW_FORM_TITLE' => 'New Project',
     'LNK_NEW_PROJECT' => 'Create Project',
-    'LNK_PROJECT_LIST' => 'View Project List',
+    'LNK_PROJECT_LIST' => 'View Projects',
     'LNK_NEW_PROJECT_TASK' => 'Create Project Task',
     'LNK_PROJECT_TASK_LIST' => 'View Project Tasks',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Projects',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
     'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_TASK_ID' => 'ID',
@@ -101,7 +98,6 @@ $mod_strings = array(
     'LBL_PREDECESSORS' => 'Predecessors',
     'LBL_PERCENT_COMPLETE' => '% Complete',
     'LBL_MORE' => 'More...',
-    'LBL_OPPORTUNITIES' => 'Opportunities',
     'LBL_NEXT_WEEK' => 'Next',
     'LBL_PROJECT_INFORMATION' => 'Project Overview',
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
@@ -120,7 +116,7 @@ $mod_strings = array(
     'LBL_DELETE_TASK' => 'Delete Task',
     'LBL_EDIT_TASK_PROPERTIES' => 'Edit task properties.',
     'LBL_PARENT_TASK_ID' => 'Parent Task Id',
-    'LBL_RESOURCE_CHART' => 'Resource Calendar',
+    'LBL_RESOURCE_CHART' => 'Resources Calendar',
     'LBL_RELATIONSHIP_TYPE' => 'Relation Type',
     'LBL_ASSIGNED_TO' => 'Project Manager',
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Project Template',
@@ -160,7 +156,9 @@ $mod_strings = array(
     'LBL_REMOVE' => 'Remove',
     'LBL_VIEW_DETAIL' => 'View Details',
     'LBL_OVERRIDE_BUSINESS_HOURS' => 'Consider Working days',
-
+    
+    'LBL_IMPORT_PROJECTS' => 'Import Projects',
+    
     'LBL_PROJECTS_SEARCH' => 'Search Projects',
     'LBL_USERS_SEARCH' => 'Search Users',
     'LBL_CONTACTS_SEARCH' => 'Select  Contacts',
