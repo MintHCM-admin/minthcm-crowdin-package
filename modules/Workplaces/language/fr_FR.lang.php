@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -63,15 +63,18 @@ $mod_strings = array(
     'LBL_ASCENDING' => 'Ascending',
     'LBL_DESCENDING' => 'Descending',
     'LBL_MODE' => 'Mode',
+    'LBL_MODULE_NAME' => 'Workplaces',
+    'LBL_MODULE_TITLE' => 'Workplaces',
     'LBL_ROOM_NAME' => 'Room Name',
     'LBL_ROOM_ID' => 'Room ID',
     'LNK_NEW_RECORD' => 'Create Workplace',
-    'LNK_LIST' => 'View Workplaces',
+    'LNK_LIST' => 'Workplaces',
     'LBL_RELATIONSHIP_ROOM_NAME' => 'Room',
     'LBL_RELATIONSHIP_ROOM_ID' => 'Room ID',
     'LBL_RELATIONSHIP_ALLOCATIONS' => 'Allocations',
     'LBL_RELATIONSHIP_WORKSCHEDULES_NAME' => 'Work Schedules',
     'LBL_STATUS' => 'Status',
     'LBL_ERR_CANT_CHANGE_MODE' => "You can not change workplace's mode if there are active or planned allocations.",
-    'LBL_ERR_CANT_SELECT_ROOM' => "You can select only an active room."
+    'LBL_ERR_CANT_SELECT_ROOM' => "You can select only an active room.",
+    'LBL_FILES' => 'Files',
 );
