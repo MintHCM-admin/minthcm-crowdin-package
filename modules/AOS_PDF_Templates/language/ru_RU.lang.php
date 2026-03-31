@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2023 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -75,24 +75,17 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type',
     'LBL_ACTIVE' => 'Active',
     'LBL_BUTTON_INSERT' => 'Insert',
-    'LBL_WARNING_OVERWRITE' => 'Warning this will overwrite you current Work',
+    'LBL_WARNING_OVERWRITE' => 'Warning, this will overwrite your current work',
     'LBL_INSERT_FIELDS' => 'Insert Fields',
 
     'LBL_SAMPLE' => 'Load Sample',
     'LBL_PAGE' => 'Page',
     'LBL_PREPARED_FOR' => 'Prepared For',
     'LBL_PREPARED_BY' => 'Prepared By',
-    'LBL_QUOTE_SAMPLE' => 'Quote Sample',
-    'LBL_INVOICE_SAMPLE' => 'Invoice Sample',
-    'LBL_ACCOUNT_SAMPLE' => 'Account Sample',
-    'LBL_CONTACT_SAMPLE' => 'Contact Sample',
-    'LBL_LEAD_SAMPLE' => 'Lead Sample',
     'LBL_ANY_STREET' => 'Any Street',
     'LBL_ANY_TOWN' => 'Any Town',
     'LBL_ANY_WHERE' => 'Any Where',
 
-    'LBL_QUOTE_GROUP_SAMPLE' => 'Quote Group Sample',
-    'LBL_INVOICE_GROUP_SAMPLE' => 'Invoice Group Sample',
     'LBL_MARGIN_LEFT' => 'Margin Left',
     'LBL_MARGIN_RIGHT' => 'Margin Right',
     'LBL_MARGIN_TOP' => 'Margin Top',
