@@ -9,7 +9,7 @@
  * Copyright (C) 2011 - 2018 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -80,6 +80,7 @@ $mod_strings = array(
     'ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE' => 'The config override file exists but is not writeable. Please take the necessary steps to make the file writeable. Depending on your Operating system, this might require you to change the permissions by running chmod 766, or to right click on the filename to access the properties and uncheck the read only option.',
     'ERR_CHECKSYS_CUSTOM_NOT_WRITABLE' => 'The Custom Directory exists but is not writeable. You may have to change permissions on it (chmod 766) or right click on it and uncheck the read only option, depending on your Operating System. Please take the needed steps to make the file writeable.',
     'ERR_CHECKSYS_FILES_NOT_WRITABLE' => "The files or directories listed below are not writeable or are missing and cannot be created. Depending on your Operating System, correcting this may require you to change permissions on the files or parent directory (chmod 755), or to right click on the parent directory and uncheck the 'read only' option and apply it to all subfolders.",
+    'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "Functions associated with JSON Parser Libraries that are needed by the SuiteCRM application were not found. You might need to uncomment the extension in the php.ini file, or recompile with the right binary file, depending on your version of PHP. Please refer to your PHP Manual for more information.",
     'LBL_CHECKSYS_OVERRIDE_CONFIG' => 'Config override',
     'ERR_CHECKSYS_SAFE_MODE' => 'Safe Mode is On (you may wish to disable in php.ini)',
     'ERR_CHECKSYS_ZLIB' => 'ZLib support not found: MintHCM reaps enormous performance benefits with zlib compression.',
@@ -165,6 +166,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_PHP_OK' => 'OK (ver ',
     'LBL_CHECKSYS_PHPVER' => 'PHP Version',
     'LBL_CHECKSYS_IISVER' => 'IIS Version',
+    'LBL_CHECKSYS_JSON' => 'JSON Parsing',
     'LBL_CHECKSYS_RECHECK' => 'Re-check',
     'LBL_CHECKSYS_STATUS' => 'Status',
     'LBL_CHECKSYS_TITLE' => 'System Check Acceptance',
@@ -190,6 +192,9 @@ $mod_strings = array(
     'LBL_DBCONF_SUITE_DB_USER' => 'MintHCM Database User',
     'LBL_DBCONF_DB_ADMIN_USER' => 'Database Administrator Username',
     'LBL_DBCONF_DB_ADMIN_PASSWORD' => 'Database Admin Password',
+    'LBL_DBCONF_COLLATION' => 'Collation',
+    'LBL_DBCONF_CHARSET' => 'Character Set',
+    'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Advanced Database Configuration',
     'LBL_DBCONF_DEMO_DATA' => 'Populate Database with Demo Data?',
     'LBL_DBCONF_DEMO_DATA_TITLE' => 'Choose Demo Data',
     'LBL_DBCONF_HOST_NAME' => 'Host Name',
@@ -432,7 +437,7 @@ $mod_strings = array(
         'subject' => 'New account information',
         'type' => 'system',
         'description' => 'This template is used when the System Administrator sends a new password to a user.',
-        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Here is your account username and temporary password:</p><p>Username : $contact_user_user_name </p><p>Password : $contact_user_user_hash </p><br><p>$config_site_url</p><br><p>After you log in using the above password, you may be required to reset the password to one of your own choice.</p>   </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
+        'body' => '<div class="mozaik-inner" style="max-width:600px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px 30px;margin:0px auto;width:600px;background-color:rgb(250,250,250);"><div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><table width="550" class="mce-item-table" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:3px 3px 3px 0px;margin:0px -10px 0px 0px;"><tbody style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><tr style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:5px 0px;margin:0px;"><td style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(0,153,118);padding:3px 3px 3px 0px;margin:0px;"><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">Here is your account username and temporary password:</p><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">Username : $contact_user_user_name</p><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">Password : $contact_user_user_hash</p><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><a href="$config_site_url" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;">Link to login page</a></p><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">After you log in using the above password, you may be required to reset the password to one of your own choice.</p></td></tr><tr style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:5px 0px;margin:0px;"><td style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(0,153,118);padding:3px 3px 3px 0px;margin:0px;"><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /></td></tr></tbody></table></div><div class="mozaik-clear" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;height:0px;"><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /></div></div>',
         'txt_body' =>
         '
 Here is your account username and temporary password:
@@ -448,7 +453,7 @@ After you log in using the above password, you may be required to reset the pass
         'subject' => 'Reset your account password',
         'type' => 'system',
         'description' => "This template is used to send a user a link to click to reset the user's account password.",
-        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>You recently requested on $contact_user_pwd_last_changed to be able to reset your account password. </p><p>Click on the link below to reset your password:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
+        'body' => '<div class="mozaik-inner" style="max-width:600px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px 30px;margin:0px auto;width:600px;background-color:rgb(250,250,250);"><div style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><table width="550" class="mce-item-table" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:3px 3px 3px 0px;margin:0px -10px 0px 0px;"><tbody style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><tr style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:5px 0px;margin:0px;"><td style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(0,153,118);padding:3px 3px 3px 0px;margin:0px;"><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">You recently requested on $contact_user_pwd_last_changed to be able to reset your account password.</p><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;">Click on the link below to reset your password:</p><p style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;"><a href="$contact_user_link_guid" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;">Reset password</a></p></td></tr><tr style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:5px 0px;margin:0px;"><td style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(0,153,118);padding:3px 3px 3px 0px;margin:0px;"><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /></td></tr></tbody></table></div><div class="mozaik-clear" style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px;height:0px;"><br style="font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);padding:0px;margin:0px auto;" /></div><div id="sugar_text_mceResizeHandlenw" class="mce-resizehandle" style="margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);"></div><div id="sugar_text_mceResizeHandlene" class="mce-resizehandle" style="margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);"></div><div id="sugar_text_mceResizeHandlese" class="mce-resizehandle" style="margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);"></div><div id="sugar_text_mceResizeHandlesw" class="mce-resizehandle" style="margin:0px;padding:0px;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:22.4px;color:rgb(68,68,68);"></div></div>',
         'txt_body' =>
         '
 You recently requested on $contact_user_pwd_last_changed to be able to reset your account password.
@@ -514,7 +519,7 @@ $contact_user_link_guid',
     'NEW_LOGO_HELP' => 'The image file format can be either .png or .jpg. The maximum height is 170px, and the maximum width is 450px. Any image uploaded that is larger in any direction will be scaled to these max dimensions.',
     'COMPANY_LOGO_UPLOAD_BTN' => 'Upload',
     'CURRENT_LOGO' => 'Current Logo:',
-    'CURRENT_LOGO_HELP' => 'This logo is displayed in the left-hand corner of the footer of the MintHCM application.',
+    'CURRENT_LOGO_HELP' => 'This logo is displayed in the centre of the login screen of the SuiteCRM application.',
 
 
     //Scenario selection of modules
@@ -567,7 +572,7 @@ $contact_user_link_guid',
     'LBL_START' => '',
     'LBL_DB_CONN_ERR' => 'Database error',
     'LBL_OLD_PHP' => 'Old PHP Version Detected!',
-    'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install MintHCM is %s <br />Although the minimum PHP version required is %s, ' .
+    'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install MintHCM is %s <br />The the minimum PHP version required is %s, ' .
         //' is not recommended due to the large number of fixed bugs, including security fixes, released in the more modern versions.'.
         '<br />You are using PHP version %s, witch is not supported by MintHCM ' .
         //' which is EOL: <a href="http://php.net/eol.php">http://php.net/eol.php</a>.<br />Please consider upgrading your PHP version. Instructions on <a href="http://php.net/migration70">http://php.net/migration70</a>. '

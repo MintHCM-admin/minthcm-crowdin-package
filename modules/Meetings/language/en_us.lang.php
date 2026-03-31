@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -69,6 +69,7 @@ $mod_strings = array(
    'LBL_HOURS_MINS' => '(hours/minutes)',
    'LBL_INVITEE' => 'Invitees',
    'LBL_LAST_NAME' => 'Last Name',
+   'LBL_ASSIGNED_TO' => 'Assigned to:',
    'LBL_ASSIGNED_TO_NAME' => 'Assigned to:',
    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
    'LBL_LIST_CLOSE' => 'Close',
@@ -82,7 +83,6 @@ $mod_strings = array(
    'LBL_LIST_RELATED_TO' => 'Related to',
    'LBL_LIST_STATUS' => 'Status',
    'LBL_LIST_SUBJECT' => 'Subject',
-   'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
    'LBL_LOCATION' => 'Location:',
    'LBL_MINSS_ABBREV' => 'm',
    'LBL_MODIFIED_BY' => 'Modified by',
@@ -137,15 +137,14 @@ $mod_strings = array(
    'LBL_EXTNOSTART_MAIN' => 'You cannot start this meeting because you are not an Administrator or the owner of the meeting.',
    // create invitee functionallity
    'LBL_CREATE_INVITEE' => 'Create an invitee',
-   'LBL_CREATE_CONTACT' => 'As Contact',
-   'LBL_CREATE_LEAD' => 'As Lead',
-   'LBL_CREATE_AND_ADD' => 'Create & Add',
+   'LBL_CREATE_CONTACT' => 'As Contact',  // Create invitee functionallity
+   'LBL_CREATE_AND_ADD' => 'Create & Add',  // Create invitee functionallity
    'LBL_CANCEL_CREATE_INVITEE' => 'Cancel',
-   'LBL_EMPTY_SEARCH_RESULT' => 'Sorry, no results were found. Please create an invitee below.',
-   'LBL_NO_ACCESS' => 'You have no access to create $module',
+   'LBL_EMPTY_SEARCH_RESULT' => 'Sorry, no results were found.',
+   'LBL_NO_ACCESS' => 'You have no access to create $module',  // Create invitee functionallity
    'LBL_REPEAT_TYPE' => 'Repeat Type',
    'LBL_REPEAT_INTERVAL' => 'Repeat Interval',
-   'LBL_REPEAT_DOW' => 'Repeat Dow',
+   'LBL_REPEAT_DOW' => 'on',
    'LBL_REPEAT_UNTIL' => 'Repeat Until',
    'LBL_REPEAT_COUNT' => 'Repeat Count',
    'LBL_REPEAT_PARENT_ID' => 'Repeat Parent ID',
@@ -177,4 +176,11 @@ $mod_strings = array(
    'LBL_ADD_INVITEE' => 'Add Invitees/Resources',
    'LBL_FIRST_NAME' => 'First Name/Resource Name',
    'LBL_LIST_TITLE' => 'Meeting',
+   'LNK_NEW_RECORD' => 'Create Meeting',  // MintHCM
+   'LBL_EDIT_ALL_RECURRENCES' => 'Edit All Recurrences',
+   'LBL_REMOVE_ALL_RECURRENCES' => 'Delete All Recurrences',
+   'LBL_CONFIRM_REMOVE_ALL_RECURRING' => 'Are you sure you want to remove all recurring records?',
+   'LBL_REPEAT_END' => 'End',
+   'LBL_PERIODICITY_ERROR' => 'Please select days on which the Meeting should be repeated.',
+   'LBL_RESERVATIONS_MEETINGS' => 'Reservations',
 );

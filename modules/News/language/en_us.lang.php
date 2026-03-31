@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2023 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -73,29 +73,28 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'My News',
     'LNK_NEW_RECORD' => 'Create News',
     'LNK_LIST' => 'View News',
-    'LNK_IMPORT_NEWS' => 'Import News',
     'LBL_SEARCH_FORM_TITLE' => 'Search News',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_NEWS_SUBPANEL_TITLE' => 'News',
     'LBL_NEW_FORM_TITLE' => 'New News',
-    'LBL_CONTENT_OF_ANNOUNCEMENT' => 'Content of Announcement',
+    'LBL_CONTENT_OF_ANNOUNCEMENT' => 'Content of News',
     'LBL_DISPLAY_DATE' => 'Display Date',
     'LBL_NEWS_TYPE' => 'Type',
     'LBL_NEWS_STATUS' => 'Status',
     'LBL_USERSNEWS' => 'User\'s News',
     'LBL_PUBLISH_BTN' => 'Publish',
     'LBL_ARCHIVE_BTN' => 'Archive',
-    'LBL_PUBLISHED_ERROR' => 'Failed to publish the news',
-    'LBL_ARCHIVED_ERROR' => 'Failed to archive the news',
     'LBL_DIALOG_TEXT' => 'Are you sure that you want to publish this news?',
     'LBL_DIALOG_YES_BTN' => 'Yes',
     'LBL_DIALOG_NO_BTN' => 'No',
-    'LBL_NEWS_TITLE' => "News",
     'LBL_NEWS_ANNOUNCEMENT_BTN' => "Close",
-    'LBL_NEWS_REMINDER_BTN' => "Don't show it to me again",
     'LBL_PUBLICATION_DATE' => "Date of Publication",
     'LBL_NEW_USERS_NEWS' => "There is a new information avaiable",
     'LBL_NEW_USERS_NEWS_UPDATED' => "There is an updated information avaiable",
     'LBL_REACTIONS' => "Reactions",
+    'LBL_PROSPECT_LISTS' => 'Target Lists',
+    'LBL_NO_TARGET_MSG' => 'To publish news, you need to define a group of recipients',
+    'LBL_PHOTO' => "Photo",
+    'LBL_PANEL_NEWS' => 'News',
+    'LBL_PANEL_BASIC' => 'Basic',
 );

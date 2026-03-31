@@ -12,8 +12,8 @@ $manifest = array(
     'acceptable_sugar_versions' => array(),
     'acceptable_sugar_flavors' => array('CE'),
     'author' => 'MintHCM Community',
-    'version' => '3.1.2',
-    'published_date' => '2022-12-20',
+    'version' => '4.1.4',
+    'published_date' => '2025-07-31',
 );
 $installdefs = array(
     'id' => 'en_us',
