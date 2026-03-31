@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -89,22 +89,13 @@ $mod_strings = array(
     'LNK_MEETING_LIST' => 'View Meetings',
     'LNK_TASK_LIST' => 'View Tasks',
     'LNK_NOTE_LIST' => 'View Notes',
-    'LBL_DELETE_ACTIVITY' => 'Are you sure you want to delete this activity?',
     'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
     'LBL_INVITEE' => 'Invitees',
     'LBL_LIST_DIRECTION' => 'Direction',
     'LBL_DIRECTION' => 'Direction',
     'LNK_NEW_APPOINTMENT' => 'New Appointment',
     'LNK_VIEW_CALENDAR' => 'View Calendar',
-    'LBL_OPEN_ACTIVITIES' => 'Open Activities',
     'LBL_HISTORY' => 'History',
-    'LBL_NEW_TASK_BUTTON_TITLE' => 'Create Task',
-    'LBL_NEW_TASK_BUTTON_LABEL' => 'Create Task',
-    'LBL_SCHEDULE_MEETING_BUTTON_TITLE' => 'Schedule Meeting',
-    'LBL_SCHEDULE_MEETING_BUTTON_LABEL' => 'Schedule Meeting',
-    'LBL_SCHEDULE_CALL_BUTTON_LABEL' => 'Log Call',
-    'LBL_NEW_NOTE_BUTTON_TITLE' => 'Create Note or Attachment',
-    'LBL_NEW_NOTE_BUTTON_LABEL' => 'Create Note or Attachment',
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Archive Email',
     'LBL_LIST_STATUS' => 'Status',
