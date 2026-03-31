@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -47,8 +47,6 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
-    'LBL_ACCOUNT_ID' => 'Account ID:',
     'LBL_CASE_ID' => 'Case ID:',
     'LBL_CLOSE' => 'Close:',
     'LBL_CONTACT_ID' => 'Contact ID:',
@@ -60,7 +58,6 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Mime Type',
     'LBL_FILE_URL' => 'File URL',
     'LBL_FILENAME' => 'Attachment:',
-    'LBL_LEAD_ID' => 'Lead ID:',
     'LBL_LIST_CONTACT_NAME' => 'Contact',
     'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
     'LBL_LIST_FILENAME' => 'Attachment',
@@ -76,7 +73,6 @@ $mod_strings = array(
     'LBL_NOTE_SUBJECT' => 'Subject:',
     'LBL_NOTES_SUBPANEL_TITLE' => 'Attachments',
     'LBL_NOTE' => 'Note:',
-    'LBL_OPPORTUNITY_ID' => 'Opportunity ID:',
     'LBL_PARENT_ID' => 'Parent ID:',
     'LBL_PARENT_TYPE' => 'Parent Type',
     'LBL_PHONE' => 'Phone:',
@@ -98,7 +94,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Created By',
     'LBL_MODIFIED_BY' => 'Modified By',
     'LBL_SEND_ANYWAYS' => 'This email has no subject. Send/save anyway?',
-    'LBL_NOTE_INFORMATION' => 'OVERVIEW',
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'My Notes',
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
     //For export labels
@@ -108,4 +104,6 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_DELETED' => 'Deleted',
     'LBL_LIST_TITLE' => 'Note or Attachment',
+    'LBL_FILE_CONTENTS' => 'File Contents',
+    'LBL_APPRAISAL' => 'Appraisal',
 );
