@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -53,6 +53,8 @@ $mod_strings = array(
     'LBL_MODIFIED_NAME' => 'Modified by Name',
     'LBL_CREATED' => 'Created by',
     'LBL_DESCRIPTION' => 'Description',
+    'LBL_MODULE_NAME' => 'Allocations',
+    'LBL_MODULE_TITLE' => 'Allocations',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Created by User',
@@ -69,7 +71,7 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_WORKPLACES_ID' => 'Workplace ID',
     'LBL_LINKED_USERS_TITLE' => 'Employees',
     'LNK_NEW_RECORD' => 'Create Allocation',
-    'LNK_LIST' => 'View Allocations',
+    'LNK_LIST' => 'Allocations',
     'LBL_ERR_WORKPLACE_PERIODS' => 'You can not select this workplace because it is occupied in the chosen period.',
     'LBL_ERR_WORKPLACE_STATUS' => 'Status or mode of selected workplace do not match with current allocation.',
 );
