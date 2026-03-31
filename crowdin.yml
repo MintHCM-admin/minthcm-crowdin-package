@@ -1,13 +1,17 @@
 files:
   - source: /**/
+    dest: /MintHCM/%original_path%
     ignore:
       - /**/SugarFields
       - /include/language/en_us.notify_template.html
       - manifest.php
     translation: /%original_path%/%locale_with_underscore%.lang.php
   - source: /include/SugarFields/Fields/Address/en_us.EditView.tpl
+    dest: /MintHCM/%original_path%
     translation: /%original_path%/%locale_with_underscore%.EditView.tpl
   - source: /include/language/en_us.notify_template.html
+    dest: /MintHCM/%original_path%
     translation: /%original_path%/%locale_with_underscore%.notify_template.html
   - source: /include/SugarFields/Fields/Address/en_us.DetailView.tpl
+    dest: /MintHCM/%original_path%
     translation: /%original_path%/%locale_with_underscore%.DetailView.tpl
