@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2023 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -46,18 +46,14 @@
 $mod_strings = array(
     'LBL_TEAM' => 'Teams',
     'LBL_TEAMS' => 'Teams',
-    'LBL_TEAM_ID' => 'Team Id',
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified by',
-    'LBL_MODIFIED_ID' => 'Modified by Id',
     'LBL_MODIFIED_NAME' => 'Modified by Name',
     'LBL_CREATED' => 'Created by',
-    'LBL_CREATED_ID' => 'Created by Id',
-    'LBL_USER_FAVORITES' => 'Users Who Favorite',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
@@ -82,15 +78,15 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Certificates',
     'LBL_MODULE_NAME' => 'Certificates',
     'LBL_MODULE_TITLE' => 'Certificates',
-    'LBL_MODULE_NAME_SINGULAR' => 'Certificate',
     'LBL_HOMEPAGE_TITLE' => 'My Certificates',
     'LNK_NEW_RECORD' => 'Create Certificate',
     'LNK_LIST' => 'Certificates',
-    'LNK_IMPORT_CANDIDATE' => 'Import Certificates',
     'LBL_SEARCH_FORM_TITLE' => 'Search Certificate',
-    'LBL_CANDIDATE_SUBPANEL_TITLE' => 'Certificates',
     'LBL_RELATIONSHIP_CANDIDATE_ID' => 'Candidate ID',
     'LBL_RELATIONSHIP_CANDIDATE_NAME' => 'Candidate',
     'LBL_CERTIFICATE_SUBPANEL_TITLE' => 'Employee Certificates',
     'LBL_EMPLOYEE_CERTIFICATES' => 'Employee Certificates',
+    'LBL_ATTEMPTS_NUMBER' => 'Number of Attempts',
+    'LBL_DURATION' => 'Duration',
+    'LBL_PASS_RATE' => 'Pass Rate',
 );
