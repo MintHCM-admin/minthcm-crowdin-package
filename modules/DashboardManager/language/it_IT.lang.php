@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2023 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2023 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -50,10 +50,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_ID' => 'Modified By Id',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Dashboard Name',
@@ -62,22 +60,18 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Dashboard Name',
     'LBL_TEAM' => 'Teams',
     'LBL_TEAMS' => 'Teams',
-    'LBL_TEAM_ID' => 'Team Id',
     'LBL_LIST_FORM_TITLE' => 'Dashboard Manager List',
     'LBL_MODULE_NAME' => 'Dashboard Manager',
     'LBL_MODULE_TITLE' => 'Dashboard Manager',
     'LBL_HOMEPAGE_TITLE' => 'My Dashboard Manager',
     'LNK_NEW_RECORD' => 'Create Template',
     'LNK_LIST' => 'View Templates',
-    'LNK_IMPORT_DASHBOARDMANAGER' => 'Import Dashboard Manager',
     'LBL_SEARCH_FORM_TITLE' => 'Search Dashboards',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_DASHBOARDMANAGER_SUBPANEL_TITLE' => 'Dashboard Manager',
     'LBL_NEW_FORM_TITLE' => 'New Dashboard Manager',
     'LBL_ENCODED_PAGES' => 'Encoded Pages',
     'LBL_ENCODED_DASHLETS' => 'Encoded Dashlets',
-    'LNK_CREATE_DASHBOARD_BACKUP' => 'Create Backup',
     'LNK_VIEW_DASHBOARD_BACKUPS' => 'View Backups',
     'LBL_DASHBOARDBACKUPS' => 'Associated User Backups',
     'LBL_DASHBOARDHISTORY' => 'Dashboard deployment history',
