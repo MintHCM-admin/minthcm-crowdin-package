@@ -5,10 +5,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM, 
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -70,7 +70,6 @@ $mod_strings = array(
     'LBL_MODIFY_PROPERTIES_DESC' => 'Configure the properties for each connector, including URLs and API keys.',
     'LBL_MODIFY_SEARCH_TITLE' => 'Manage Connector Search',
     'LBL_MODIFY_SEARCH' => 'Search',
-    'LBL_MODIFY_SEARCH_DESC' => 'Select the connector fields to use to search for data for each module.',
     'LBL_MODULE_NAME' => 'Connectors',
     'LBL_NO_PROPERTIES' => 'There are no configurable properties for this connector.',
     'LBL_SAVE' => 'Save',
@@ -87,7 +86,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPED' => 'Error: There are no connectors enabled that have search fields defined.',
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Error: There are no search fields defined for the module and connector. Please contact the system administrator.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Error: There are no module fields that have been mapped for display in the results. Please contact the system administrator.',
-    'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
     'LBL_CLOSE' => 'Close' /*for 508 compliance fix*/,
 
 );
