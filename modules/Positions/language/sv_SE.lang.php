@@ -6,10 +6,10 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ * Copyright (C) 2018-2025 SalesAgility Ltd.
  *
  * MintHCM is a Human Capital Management software based on SuiteCRM developed by MintHCM,
- * Copyright (C) 2018-2019 MintHCM
+ * Copyright (C) 2018-2025 MintHCM
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -56,19 +56,14 @@
 $mod_strings = array(
     'LBL_TEAM' => 'Teams',
     'LBL_TEAMS' => 'Teams',
-    'LBL_TEAM_ID' => 'Team Id',
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified by',
-    'LBL_MODIFIED_ID' => 'Modified by Id',
     'LBL_MODIFIED_NAME' => 'Modified by Name',
     'LBL_CREATED' => 'Created by',
-    'LBL_CREATED_ID' => 'Created by Id',
-    'LBL_DOC_OWNER' => 'Document Onwer',
-    'LBL_USER_FAVORITES' => 'Users Who Favorite',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
@@ -80,7 +75,6 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Positions List',
     'LBL_MODULE_NAME' => 'Positions',
     'LBL_MODULE_TITLE' => 'Positions',
-    'LBL_MODULE_NAME_SINGULAR' => 'Position',
     'LBL_HOMEPAGE_TITLE' => 'My Positions',
     'LNK_NEW_RECORD' => 'Create Position',
     'LNK_LIST' => 'View Positions',
@@ -88,7 +82,6 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Search Positions',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activity Stream',
-    'LBL_POSITIONS_SUBPANEL_TITLE' => 'Positions',
     'LBL_NEW_FORM_TITLE' => 'New Position',
     'LBL_IMPORT' => 'Import Positions',
     'LBL_IMPORT_VCARDTEXT' => 'Automatically create a new Positions record by importing a vCard from your file system.',
@@ -99,12 +92,10 @@ $mod_strings = array(
     'LBL_SHOW_MORE_INFORMATION' => 'Other',
     'LBL_SECURITYGROUPS_LEADER_NAME' => 'Supervised Unit',
     'LBL_SECURITYGROUPS_LEADER_ID' => 'Supervised Unit (ID)',
-    'LBL_ONBOARDINGTEMPLATES_POSITIONS_FROM_ONBOARDINGTEMPLATES_TITLE' => 'Onboarding Templates',
     'LBL_ONBOARDINGTEMPLATES_POSITIONS_TITLE' => 'Onboarding Templates',
-    'LBL_OFFBOARDINGTEMPLATES_POSITIONS_FROM_OFFBOARDINGTEMPLATES_TITLE' => 'Offboarding Templates',
     'LBL_OFFBOARDINGTEMPLATES_POSITIONS_TITLE' => 'Offboarding Templates',
-    'LBL_POSITIONS_SUPERVISION_NAME' => 'Supervisor',
-    'LBL_POSITIONS_SUPERVISION_ID' => 'Supervisor (ID)',
+    'LBL_POSITIONS_SUPERVISION_NAME' => 'Supervisor (Position)',
+    'LBL_POSITIONS_SUPERVISION_ID' => 'Supervisor (Position) (ID)',
     'LBL_POSITIONS_POSITIONS_SUPERVISION_LEFT' => 'Supervised Positions',
     'LBL_DOCUMENTS' => 'Documents',
     'LBL_EMPLOYEES' => 'Employees on Position',
@@ -126,4 +117,8 @@ $mod_strings = array(
     'LBL_TERMSOFEMPLOYMENT_SUBPANEL_TITLE' => 'Terms of Employment',
     'LBL_OFFBOARDINGTEMPLATE_NAME' => 'Offboarding Template Name',
     'LBL_ONBOARDINGTEMPLATE_NAME' => 'Onboarding Template Name',
+    'LBL_PARENT_SUPERVISION_ERROR' => 'Selected Position is a child Unit of this Position',
+    'LBL_OFFBOARDINGTEMPLATE_ID' => 'Offboarding Template (ID)',
+    'LBL_ONBOARDINGTEMPLATE_ID' => 'Onboarding Template (ID)',
+    'LBL_FILES' => 'Files',
 );
